@@ -74,15 +74,25 @@ questions.forEach((questionData) => {
 });
 
 qsa('.options > span').forEach((span) => {
+  var wrongIc = span.closest('.card').querySelector('.icon.wrong');
+  var rightIc = span.closest('.card').querySelector('.icon.right');
+
   span.onclick = () => {
     if (span.hasAttribute('right')) {
       console.log('Right answer');
-      span.closest('.card').querySelector('.icon.wrong').classList.remove('visible');
-      span.closest('.card').querySelector('.icon.right').classList.add('visible');
+      rightIc.classList.add('visible');
+      wrongIc.classList.remove('visible');
     } else {
       console.log('Wrong answer');
       span.closest('.card').querySelector('.icon.right').classList.remove('visible');
-      span.closest('.card').querySelector('.icon.wrong').classList.add('visible');
+      if (wrongIc.classList.contains('visible')) {
+        wrongIc.classList.remove('visible');
+        setTimeout(() => {
+          wrongIc.classList.add('visible');
+        }, 310);
+      } else {
+        wrongIc.classList.add('visible');
+      }
     }
   }
 });

@@ -1,4 +1,4 @@
-const questions = [
+export default [
   {
     question: "Which one of the following animals was not represented on the seals and terracotta art of the Harappan culture?",
     options: [
@@ -40,5 +40,3 @@ const questions = [
     answers: [1]
   }
 ]
-
-export default questions;
