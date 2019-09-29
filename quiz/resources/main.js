@@ -1,5 +1,7 @@
 import questions from './questions.js';
 
+console.log(questions.length);
+
 const qs = (selector) => {
   return document.querySelector(selector);
 }

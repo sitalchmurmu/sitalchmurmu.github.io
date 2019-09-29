@@ -38,6 +38,7 @@ p {
 .options span {
   display: block;
   cursor: pointer;
+  user-select: none;
 }
 
 .options span:not(:last-child) {
