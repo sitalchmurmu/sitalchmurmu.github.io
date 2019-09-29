@@ -66,3 +66,39 @@ p {
 .icon.wrong {
   background-color: #fd392b;
 }
+
+.profile {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.profile img {
+  height: 60px;
+  border-radius: 10px;
+  margin-left: 20px;
+  animation: grow-border 1s linear infinite;
+}
+
+@keyframes grow-border {
+  0% {
+    box-shadow: 0 0 0 0px #dd46f3;
+  }
+  90%, 100% {
+    box-shadow: 0 0 0 8px #e000ff00;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    font-size: 12px;
+    top: 20px;
+  }
+
+  .profile img {
+    height: 50px;
+    margin-left: 15px;
+  }
+}
