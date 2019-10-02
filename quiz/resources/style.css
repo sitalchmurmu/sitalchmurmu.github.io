@@ -102,3 +102,18 @@ p {
     margin-left: 15px;
   }
 }
+
+.reset-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  padding: 8px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+*:focus {
+  outline: none;
+}

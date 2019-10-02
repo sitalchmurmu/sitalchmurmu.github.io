@@ -98,3 +98,9 @@ qsa('.options > span').forEach((span) => {
     }
   }
 });
+
+qs('.reset-btn').addEventListener('click', () => {
+  qsa('.card .icon').forEach((el) => {
+    el.classList.remove('visible');
+  });
+});
