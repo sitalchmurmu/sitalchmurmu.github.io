@@ -6,12 +6,7 @@
 
 body {
   padding: 10px;
-}
-
-h1.header {
-  font-weight: normal;
-  margin-top: 0;
-  font-size: 40px;
+  padding-top: 100px;
 }
 
 p {
@@ -67,10 +62,30 @@ p {
   background-color: #fd392b;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0 0 7px #00000029;
+}
+
+h1.header {
+  font-weight: normal;
+  margin: 0;
+  font-size: 40px;
+}
+
 .profile {
   display: inline-flex;
   align-items: center;
-  position: absolute;
+  /* position: absolute; */
   right: 10px;
   top: 15px;
 }
