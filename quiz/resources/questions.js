@@ -348,5 +348,65 @@ export default [
       "মানিক বন্দ্যোপাধ্যায়"
     ],
     answers: [4]
+  },
+  {
+    question: "১৯১৬ সালে লক্ষনৌ চুক্তি কাদের মধ্যে স্বাক্ষরিত হয়েছিল ? ",
+    options: [
+      "হিন্দ ও মুসলমানদের মধ্যে",
+      "নরম পন্থী ও চরমপন্থীদের মধ্যে ",
+      "কংগ্রেস ও মুসলিম লীগের মধ্যে ",
+      "ব্রিটিশ ও জাতীয় কংগ্রেসের মধ্যে"
+    ],
+    answers: [3]
+  },
+  {
+    question: "বায়ুর আয়তনে কত শতাংশ হল ওজোন গ্যাস? ",
+    options: [
+      "0.1%",
+      "0.2%",
+      "0.00006%",
+      "0.03%",
+    ],
+    answers: [4]
+  },
+  {
+    question: "ভারতের ফুটবলের জনক কে ?",
+    options: [
+      " নগেন্দ্র প্রসাদ ",
+      "গণপতি চক্রবর্তী  ",
+      "নন্দলাল বসু",
+      "রাজা রামমোহন "
+    ],
+    answers: [1]
+  },
+  {
+    question: "ভারতের ক্রিকেটের জনক কে",
+    options: [
+      "লালা হরদয়াল ",
+      "অর্জুন সিং",
+      "বারীন্দ্র ঘোষ ",
+      "কপিল দেব"
+    ],
+    answers: [2]
+  },
+  {
+    question: "What is the animal symbol of World Wildlife Fund(WWF)",
+    options: [
+      "Dolphin",
+      "Kangaroo",
+      "Tiger",
+      "Giant Panda"
+    ],
+    answers: [3]
+  },
+  {
+    question: "Which one among the following is nitrogen fixing organism",
+    options: [
+      "Nitrosomona and Rhizobium",
+      "Nitrobacter and and Rhizobium",
+      "Nitrosomonas and Azotobacter",
+      "Azobacter and and Rhizobium",
+    ],
+    answers: [4]
   }
 ]
