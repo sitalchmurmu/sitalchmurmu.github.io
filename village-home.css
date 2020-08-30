@@ -1,0 +1,138 @@
+.sidebar {
+  background-color: #2d2d2d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  transform: translateX(-100%);
+  transition: 0.3s ease-in-out;
+  color: white;
+  z-index: 10;
+}
+
+.sidebar.opened {
+  transform: none;
+}
+
+.sidebar.opened .opener > span {
+  transform: translateX(10px) rotate(540deg);
+}
+
+.sidebar .opener > span {
+  transform: translateX(10px);
+  display: inline-block;
+  transition: 0.8s;
+}
+
+.sidebar .opener {
+  background-color: #2d2d2d;
+  display: inline-block;
+  padding: 30px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.sidebar .opener > span span {
+  border-color: white;
+  border-width: 2px;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: solid;
+  padding: 6px;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+
+img.home {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  margin: 20px;
+  padding: 20px;
+  border-style: solid;
+  border-color: rgb(233, 233, 233);
+  border-width: 2px;
+  border-radius: 8px;
+  display: flex;
+  background-color: green;
+}
+
+.box img {
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 14px;
+}
+
+.box .about span {
+  display: block;
+}
+
+.tom {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.imageview {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.5s, z-index 0s;
+}
+
+.dimmer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -999;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.5s, z-index 0s 0.5s;
+}
+
+.dimmer.visible {
+  transition: all 0.5s, z-index 0s;
+  opacity: 0.8;
+}
+
+.address {
+  background-color: rgb(240, 47, 137);
+  color: rgb(43, 43, 43);
+  margin: 20px;
+  padding: 20px
+}
+
+.address span {
+  display: block;
+}
+.board {
+  margin: 20px;
+  padding: 20px;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color:rgb(48, 238, 228);
+  transition: 0.2s;
+}
+
+.board span {
+  display: block;
+}
+
+.board .center {
+  text-align: center;
+}
+
+.board span:first-child {
+  margin-bottom: 20px;
+}
