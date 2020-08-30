@@ -10,8 +10,20 @@ openerBtn.addEventListener('click', () => {
 });
 
 let dimmer = document.querySelector('.dimmer');
+let imageViews = document.querySelectorAll('.imageview');
+let rollback = (el) => {
+  el.removeAttribute('style');
+  document.body.style.removeProperty('overflow');
 
-document.querySelectorAll('.imageview').forEach((el) => {
+  dimmer.style.removeProperty('z-index');
+  dimmer.classList.remove('visible');
+}
+
+dimmer.addEventListener('click', () => {
+  imageViews.forEach((el) => rollback(el));
+});
+
+imageViews.forEach((el) => {
   el.addEventListener('click', () => {
     if (!el.hasAttribute('style')) {
       el.style.zIndex = '999';
@@ -29,11 +41,7 @@ document.querySelectorAll('.imageview').forEach((el) => {
       el.style.marginLeft = '0';
       document.body.style.overflow = 'hidden';
     } else {
-      el.removeAttribute('style');
-      document.body.style.removeProperty('overflow');
-
-      dimmer.style.removeProperty('z-index');
-      dimmer.classList.remove('visible');
+      rollback(el);
     }
   });
 
