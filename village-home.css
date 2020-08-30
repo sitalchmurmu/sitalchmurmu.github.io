@@ -116,10 +116,10 @@ body {
 .address span {
   display: block;
 }
+
 .board {
   margin: 20px;
   padding: 20px;
-  height: 100px;
   margin-bottom: 10px;
   background-color:rgb(48, 238, 228);
   transition: 0.2s;
