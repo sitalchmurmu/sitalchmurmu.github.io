@@ -136,3 +136,22 @@ body {
 .board span:first-child {
   margin-bottom: 20px;
 }
+
+.myparagraph {
+
+  background-color:rgb(166, 255, 0);
+  margin:20px;
+  padding:20px;
+
+}
+.myparagraph span {
+  display:block;
+}
+.myButton {
+
+}
+.local  span {
+display: block;
+margin: 20px;
+color : rgb(4, 0, 255);
+}

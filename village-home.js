@@ -51,3 +51,5 @@ imageViews.forEach((el) => {
     }
   });
 });
+
+
