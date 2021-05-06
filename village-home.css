@@ -150,8 +150,18 @@ body {
 .myButton {
 
 }
-.local  span {
+.local  {
+  background-color: lawngreen;
 display: block;
 margin: 20px;
+padding: 30px;
 color : rgb(4, 0, 255);
+}
+.center {
+margin-left: 50%;
+transform: translateX(-50%);
+}
+.position {
+  margin-left: 20%;
+  transform:translateX(-20%)
 }
