@@ -7,7 +7,7 @@ export default [
       "Rhinoceros",
       "Tiger"
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "The site of Harappa is located on the bank of river",
@@ -17,7 +17,7 @@ export default [
       "Beas",
       "Ravi"
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: "The term 'Aryans' denotes",
@@ -27,7 +27,7 @@ export default [
       "a speech group",
       "a superior race"
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: "Which one of the following Vedic God or Goddess depicts an association with the Sun ?",
@@ -37,7 +37,7 @@ export default [
       "Indira",
       "Aranyani"
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "The first cencus was conducted in India at the time of",
@@ -47,7 +47,7 @@ export default [
       "Lord Auckland",
       "Sir John Napier"
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "The tribal leader, who was regarded as an incarnation of God and Father of the World/Dharti Aba was",
@@ -57,7 +57,7 @@ export default [
       "Birsa Munda",
       "Joria Bhagat"
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "Who among the following wrote the book Bahuvivah ?",
@@ -67,7 +67,7 @@ export default [
       "Pandita Rambai",
       "Rabindranath Tagore"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "The hunter Commissin was appointed after the",
@@ -77,7 +77,7 @@ export default [
       "Uprising of 1857",
       "Partition of Bengal"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "The Santhal of Rajmahal hills were provoked to rebellion in 1855-56 on accounts of",
@@ -87,7 +87,7 @@ export default [
       "the none-payment of wages by the railway authorities, who also insulted their women",
       "All of the above"
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: "Who among the following had repealed the Verncular Press Act ?",
@@ -97,7 +97,7 @@ export default [
       "Lord Dufferin",
       "Lord Lansdowne"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "The introduction of local self-government in the modern period of India is associated with the administration of",
@@ -107,7 +107,7 @@ export default [
       "Lord Dufferin",
       "Lord Canning"
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "The first Factory Act restricting the working hours of women and children, and authorizing local governments to make necessary rules was adopted during whose time?",
@@ -117,7 +117,7 @@ export default [
       "Lord Ripon",
       "Lord Canning"
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "Which one of the following territories was not affected by the Revolt of 1857?",
@@ -127,7 +127,7 @@ export default [
       "Jagdishpur",
       "Lucknow"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "Who was responsible for the introduction of English as the official language in India?",
@@ -137,7 +137,7 @@ export default [
       "Marquess of Dalhousie",
       "Allan Octawian Hume"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "Who among the following Governor Generals formed the Triple Alliance against Tipu Sultan?",
@@ -147,7 +147,7 @@ export default [
       "Lord Wellesley",
       "Lord William Bentinck"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "Who was the founder of the Indian Association?",
@@ -157,7 +157,7 @@ export default [
       "AO Hume",
       "Surendranath Banerjee"
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: "Who raised patrotism to the pedestal of mother worship and said \"I know my country as my mother. I adore her. I worship her\"",
@@ -167,7 +167,7 @@ export default [
       "BG Tilak",
       "Bankim Chandara Chatterjee"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "'The Musalman', the handwritten daily newspaper in circulation since 1927, is published from which one of the following places?",
@@ -177,7 +177,7 @@ export default [
       "Mysore",
       "Lucknow"
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: "In which one of the following cities, was the East India Association founded by Dadabhai Naoroji in 1866?",
@@ -187,7 +187,7 @@ export default [
       "New York",
       "Tokyo"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "ভূপাল গ্যাস দুর্ঘটনার জন্য দায়ী গ্যাসটি হল",
@@ -197,7 +197,7 @@ export default [
       "মিথেন গ্যাস",
       "ফ্রেয়ন গ্যাস"
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "ভারতে পরিবেশ সংরক্ষণ আইন কবে জারি হয়?",
@@ -207,7 +207,7 @@ export default [
       "1951 খ্রিস্টাব্দে",
       "2002 খ্রিস্টাব্দে"
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "মাছির দ্বারা সংক্রামিত হয় কোন রোগ?",
@@ -217,7 +217,7 @@ export default [
       "যক্ষ্মা",
       "ডেঙ্গু"
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "COD এর সাহায্যে কী মাপা হয়?",
@@ -227,7 +227,7 @@ export default [
       "মৃত্তিকা দূষনের মাত্রা",
       "কঠিন বর্জ্য দূষনের মাত্রা"
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "বিশ্ব জলদিবস হিসেবে পালিত হয় কোন দিনটি?",
@@ -237,7 +237,7 @@ export default [
       "22 এপ্রিল",
       "4 অক্টোবর"
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "\"ওজোন হোল\" - এর নামকরণ করেছেন কে?",
@@ -247,7 +247,7 @@ export default [
       "বিজ্ঞানী মার্কনি",
       "বিজ্ঞানী আর্মস"
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "পঞ্চতন্ত্র  এর  রচয়িতা  কে?",
@@ -257,7 +257,7 @@ export default [
       " বিষ্ণু শর্মা্",
       "শূদ্রক"
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "শূন্য কে আবিষ্কার করেছিলেন?",
@@ -267,7 +267,7 @@ export default [
       "কোটিল্যা",
       "প্রসেনজিত"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "হর্ষচরিত গ্রন্থ কে রচনা করেন?",
@@ -277,7 +277,7 @@ export default [
       "বাণভট্ট",
       "জয়দেব"
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "ব্যারোমিটারে পারদের উত্থান নির্দেশ করে-",
@@ -287,7 +287,7 @@ export default [
       "ঝড়",
       "ঝড় ও বৃষ্টি"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "কোন নদীটি পশ্চিমবঙ্গে উৎপত্তি লাভ করেছে ?",
@@ -297,7 +297,7 @@ export default [
       "দ্বারকেশ্বর",
       "বক্রেশ্বর"
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "চাঁদ থেকে পৃথিবীতে আলো  আসতে কত সময় লাগে? ",
@@ -307,7 +307,7 @@ export default [
       "3 সেকেন্ড",
       "1.3 সেকেন্ড"
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: "সীমান্ত গান্ধী  কাকে বলা হয় ?",
@@ -317,7 +317,7 @@ export default [
       "মহম্মদ আলি জিন্না",
       "মহম্মদ ইকবাল"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "W W F এর পুরো নাম কি?",
@@ -327,7 +327,7 @@ export default [
       "ওয়াইল্ড ওয়াইল্ড লাইফ ফান্ড",
       "ওয়ার্ল্ড ওয়ান্ডারস ফান্ড"
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "হাসপাতাল স্কুলের মতো নিঃশব্দ অঞ্চলে দিনের বেলায় অনুমোদিত সর্বাধিক শব্দ প্রাবল্য মাত্রা হল ",
@@ -337,7 +337,7 @@ export default [
       "55 ডেসিবেল",
       "80 ডেসিবেল"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "\"পদ্মানদীর মঝি\" উপন্যাসটি  কার লেখা ",
@@ -347,7 +347,7 @@ export default [
       "বিভূতি ভূষণ বন্দ্যোপাধ্যায় ",
       "মানিক বন্দ্যোপাধ্যায়"
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: "১৯১৬ সালে লক্ষনৌ চুক্তি কাদের মধ্যে স্বাক্ষরিত হয়েছিল ? ",
@@ -357,7 +357,7 @@ export default [
       "কংগ্রেস ও মুসলিম লীগের মধ্যে ",
       "ব্রিটিশ ও জাতীয় কংগ্রেসের মধ্যে"
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "বায়ুর আয়তনে কত শতাংশ হল ওজোন গ্যাস? ",
@@ -367,7 +367,7 @@ export default [
       "0.00006%",
       "0.03%",
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: "ভারতের ফুটবলের জনক কে ?",
@@ -377,7 +377,7 @@ export default [
       "নন্দলাল বসু",
       "রাজা রামমোহন "
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "ভারতের ক্রিকেটের জনক কে",
@@ -387,7 +387,7 @@ export default [
       "বারীন্দ্র ঘোষ ",
       "কপিল দেব"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "What is the animal symbol of World Wildlife Fund(WWF)",
@@ -397,7 +397,7 @@ export default [
       "Tiger",
       "Giant Panda"
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "Which one among the following is nitrogen fixing organism",
@@ -407,7 +407,7 @@ export default [
       "Nitrosomonas and Azotobacter",
       "Azobacter and and Rhizobium",
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: "ভারতের একটি আগ্নেয়গিরির নাম কী?",
@@ -417,7 +417,7 @@ export default [
       "পোপো",
       "ভিসুভিয়াস"
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "ভারতের লোকসভার প্রথম স্পিকার হলেন -- ",
@@ -427,7 +427,7 @@ export default [
       "গণেশ বাসুদেব মাভ্লংকার",
       "স্যার আশুতোষ "
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "বেলুন কে আবিস্কার করেন ?",
@@ -437,7 +437,7 @@ export default [
       "পল মুলার",
       "মসলে"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "২০১৬ সালে কোন দেশ ইউরো  কাপ চ্যাম্পিয়ন হয়?",
@@ -447,7 +447,7 @@ export default [
       "ইতালি",
       "পর্তুগাল"
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: "সেন বংশের শেষ রাজা কে?",
@@ -457,7 +457,7 @@ export default [
       "বিজয় সেন",
       "তানসেন"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "ভারতের দীর্ঘ মেয়াদী রাষ্ট্রপতি হলেন -",
@@ -467,7 +467,7 @@ export default [
       "জাকির হুসেন",
       "ডঃ রাজেন্দ্র প্রসাদ "
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: "ভারতের প্রথম প্রধানমন্ত্রীর নাম -",
@@ -477,7 +477,7 @@ export default [
       "ডঃ রাজেন্দ্র প্রসাদ",
       "চরণ সিং"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "ম্যালেরিয়া রোগের জন্য দায়ী",
@@ -487,7 +487,7 @@ export default [
       "ভাইরাস",
       "মাইকপ্লাজমা"
     ],
-    answers: [2]
+    answer: 2
   },
   {
     question: "ফাইলেরিয়া রোগ সৃষ্টির জন্য দায়ী এধরনের -",
@@ -497,7 +497,7 @@ export default [
       "প্রোটোজোয়",
       "কৃমি"
     ],
-    answers: [4]
+    answer: 4
   },
   {
     question: " কোন রোগকে এন্টেরিক জ্বর বলা হয় ",
@@ -507,7 +507,7 @@ export default [
       "নিউমনিয়া",
       "ম্যালেরিয়া"
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "চিপক আন্দোলন নেতৃ্ত্ব দিয়েছিলেন -",
@@ -517,7 +517,7 @@ export default [
       "মেধা পাটেকর",
       "কোনটিই নয়"
     ],
-    answers: [1]
+    answer: 1
   },
   {
     question: "চিপক আন্দোলনের উদ্দেশ্য এটির সুরক্ষা করা - ",
@@ -527,7 +527,7 @@ export default [
       "অরন্য",
       "সমুদ্র"
     ],
-    answers: [3]
+    answer: 3
   },
   {
     question: "পানীয় জলে আর্সেনিক অনুমোদন মাত্রা হল লিটার প্রতি -",
@@ -537,6 +537,126 @@ export default [
       "16.5mg",
       "20.3mg"
     ],
-    answers: [2]
-  }
+    answer: 2
+  },
+  {
+    question:"সাধুরামচাঁদ মুরমু আঃ জানাম  অড়া দ আকারে?",
+    options: [
+      "কামারবান্দি",
+      "শিলদা",
+      "ঝাড়্গ্রাম",
+      "বেলপাহাড়ি"
+    ],
+    answer: 1
+  },
+  {
+    question: "সাধুরামচাঁদ মুরমু দ তিনা সালরেয় জানাম লেনা",
+    options: [
+      "১৩০৪",
+      "১৩০৫",
+      "১৪০৬",
+      "১২০৭"
+    ],
+    answer: 2
+  },
+  {
+    question: "",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
 ]
