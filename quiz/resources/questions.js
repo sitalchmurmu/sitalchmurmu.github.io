@@ -567,7 +567,7 @@ export default [
       "Option 3",
       "Option 4"
     ],
-    answer: number
+    answer: 1
   },
   {
     question: "Your Question",
@@ -577,7 +577,7 @@ export default [
       "Option 3",
       "Option 4"
     ],
-    answer: number
+    answer: 3
   },
   {
     question: "Your Question",
@@ -587,7 +587,7 @@ export default [
       "Option 3",
       "Option 4"
     ],
-    answer: number
+    answer: 2
   },
   {
     question: "Your Question",
@@ -597,7 +597,7 @@ export default [
       "Option 3",
       "Option 4"
     ],
-    answer: number
+    answer: 4
   },
   {
     question: "Your Question",
@@ -607,7 +607,7 @@ export default [
       "Option 3",
       "Option 4"
     ],
-    answer: number
+    answer: 3
   },
   {
     question: "Your Question",
@@ -617,7 +617,7 @@ export default [
       "Option 3",
       "Option 4"
     ],
-    answer: number
+    answer: 1
   },
   {
     question: "Your Question",
@@ -627,7 +627,7 @@ export default [
       "Option 3",
       "Option 4"
     ],
-    answer: number
+    answer: 2
   },
   {
     question: "Your Question",
@@ -637,7 +637,7 @@ export default [
       "Option 3",
       "Option 4"
     ],
-    answer: number
+    answer: 4
   },
   {
     question: "Your Question",
@@ -647,7 +647,7 @@ export default [
       "Option 3",
       "Option 4"
     ],
-    answer: number
+    answer: 3
   },
   {
     question: "Your Question",
@@ -657,6 +657,6 @@ export default [
       "Option 3",
       "Option 4"
     ],
-    answer: number
+    answer: 2
   },
 ]
