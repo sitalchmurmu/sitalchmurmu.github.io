@@ -560,92 +560,214 @@ export default [
     answer: 2
   },
   {
-    question: "",
+    question: "গির ন্যাশনাল পার্ক কোন্ রাজ্যে অবস্থিত?",
     options: [
-      "Option 1",
-      "Option 2",
-      "Option 3",
-      "Option 4"
-    ],
-    answer: 1
-  },
-  {
-    question: "Your Question",
-    options: [
-      "Option 1",
-      "Option 2",
-      "Option 3",
-      "Option 4"
-    ],
-    answer: 3
-  },
-  {
-    question: "Your Question",
-    options: [
-      "Option 1",
-      "Option 2",
-      "Option 3",
-      "Option 4"
-    ],
-    answer: 2
-  },
-  {
-    question: "Your Question",
-    options: [
-      "Option 1",
-      "Option 2",
-      "Option 3",
-      "Option 4"
+      "মধ্যপ্রদেশ",
+      "তামিলনাড়ু",
+      "পশ্চিমবঙ্গ",
+      "গুজরাট"
     ],
     answer: 4
   },
   {
-    question: "Your Question",
+    question: "রাজীব গান্ধী ন্যাশনাল পার্ক কোন্ রাজ্যে অবস্থিত?",
     options: [
-      "Option 1",
-      "Option 2",
-      "Option 3",
-      "Option 4"
-    ],
-    answer: 3
-  },
-  {
-    question: "Your Question",
-    options: [
-      "Option 1",
-      "Option 2",
-      "Option 3",
-      "Option 4"
-    ],
-    answer: 1
-  },
-  {
-    question: "Your Question",
-    options: [
-      "Option 1",
-      "Option 2",
-      "Option 3",
-      "Option 4"
+      "ওড়িষা",
+      "রাজস্থান",
+      "মণিপুর",
+      "আসাম"
     ],
     answer: 2
   },
   {
-    question: "Your Question",
+    question: "সিঙ্গালিলা ন্যাশনাল পার্ক কোন্ রাজ্যে অবস্থিত?",
     options: [
-      "Option 1",
-      "Option 2",
-      "Option 3",
-      "Option 4"
+      "ওড়িষা",
+      "পশ্চিমবঙ্গ",
+      "কেরালা",
+      "ঝাড়খন্ড"
+    ],
+    answer: 2
+  },
+  {
+    question: "ইন্দ্রাবতী ন্যাশনাল পার্ক কোন্ রাজ্যে অবস্থিত?",
+    options: [
+      "মধ্যপ্রদেশ",
+      "আসাম",
+      "উত্তরপ্রদেশ",
+      "ছত্তিশগড়"
     ],
     answer: 4
   },
   {
-    question: "Your Question",
+    question: "নোকরাক ন্যাশনাল পার্ক কোন্ রাজ্যে অবস্থিত?",
     options: [
-      "Option 1",
-      "Option 2",
-      "Option 3",
-      "Option 4"
+      "জম্মু কাশ্মীর",
+      "গুজরাট",
+      "মেঘালয়",
+      "অরুনাচল প্রদেশ"
+    ],
+    answer: 3
+  },
+  {
+    question: "ভূপৃষ্ঠ থেকে বায়ুমণ্ডলের উচ্চতার মান -",
+    options: [
+      "1000 কিমি",
+      "1000 মি",
+      "1000 ফুট",
+      "৭750 মি"
+    ],
+    answer: 1
+  },
+  {
+    question: "বায়ুমণ্ডলের সবথেকে বেশি পরিমানে রয়েছে -",
+    options: [
+      "অক্সিজেন",
+      "নাইট্রোজেন",
+      "জলীয় বাষ্প",
+      "ধূলিকনা"
+    ],
+    answer: 2
+  },
+  {
+    question: "ভূপৃষ্ঠে বায়ু চাপের মান হয় (বায়ুম্নদলীয় চাপ একক্কে-",
+    options: [
+      "1.013",
+      "〖10〗^(-3)",
+      "76",
+      "〖10〗^(-11)"
+    ],
+    answer: 1
+  },
+  {
+    question: "রাসায়নিক গঠন অনুসারে বায়ুমণ্ডলকে ক টি ভাগে ভাগ করা যায় ?",
+    options: [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    answer: 1
+  },
+  {
+    question: "বায়ুমণ্ডলের সর্বনিম্ন স্তরটি হল -",
+    options: [
+      "থারমোস্ফিয়ার",
+      "ট্রপোস্ফিয়ার",
+      "মেসোস্ফিয়ার",
+      "স্ট্র্যাটোস্ফিয়ার"
+    ],
+    answer: 2
+  },
+  {
+    question: "বায়ুমণ্ডলের যে  স্তরটির  ঘনত্ব সবচেয়ে বেশি সেটি হল -",
+    options: [
+      "থারমোস্ফিয়ার",
+      "ট্রপোস্ফিয়ার",
+      "মেসোস্ফিয়ার",
+      "স্ট্র্যাটোস্ফিয়ার"
+    ],
+    answer: 2
+
+  },
+  {
+    question: "ট্রপোস্ফিয়ারের প্রতি কিমি উচ্চতা ব্রিধিতে উষ্ণতা -",
+    options: [
+      "6^0 হারে কমে ",
+      "6.5^0 হারে কমে ",
+      "5^0 হারে কমে",
+      "5.4^0 হারে কমে"
+    ],
+    answer: 2
+
+  },
+  {
+    question: "বায়ুমণ্ডলের কোন অংশে  উস্নতা অপরিবর্তিত থাকে -",
+    options: [
+      "মেসোস্ফিয়ার",
+      "ট্রপোস্ফিয়ার",
+      "ট্রপোপজ",
+      "স্ট্রাটোস্ফিয়ার"
+    ],
+    answer: 3
+  },
+  {
+    question: "বায়ুমণ্ডলের ওজোনের মধ্যে ট্রপোস্ফিয়ারের অন্তর্গত অংশ হল -",
+    options: [
+      "25 ভাগ",
+      "75 ভাগ",
+      "65 ভাগ",
+      "55 ভাগ"
+    ],
+    answer: 2
+  },
+  {
+    question: "বায়ুমণ্ডলের যে স্তরে ঝড় - বৃষ্টি  হয় , তার নাম হল -",
+    options: [
+      "স্ট্রাটোস্ফিয়ার",
+      "মেসোস্ফিয়ার",
+      "থারমোস্ফিয়ার",
+      "ট্রপোস্ফিয়ার"
+    ],
+    answer: 4
+  },
+  {
+    question: "বায়ুমণ্ডলের যে স্তরটিকে বলে শান্ত মণ্ডল সেতি হল -",
+    options: [
+      "ট্রপোস্ফিয়ার",
+      "মেসোস্ফিয়ার",
+      "স্ট্রাটোস্ফিয়ার",
+      "থারমোস্ফিয়ার"
+    ],
+    answer: 3
+  },
+  {
+    question: "বায়ুমণ্ডলের 99.99% উপাদান থাকে ভূপৃষ্ঠ থেকে -",
+    options: [
+      "50 km উচ্চতার মধ্যে",
+      "80 km উচ্চতার মধ্যে",
+      "500 km উচ্চতার মধ্যে",
+      "800 km উচ্চতার মধ্যে"
+    ],
+    answer: 2
+  },
+  {
+    question: "ট্রপোস্ফিয়ারের গড় উচ্চতা ভূপৃষ্ঠ থেকে -",
+    options: [
+      "10 km",
+      "15 km",
+      "12 km",
+      "20 km"
+    ],
+    answer: 3
+  },
+  {
+    question: "স্ট্র্যাটোস্ফিয়ার স্তরে উচ্চতা বৃদ্ধির সঙ্গে বায়ুর উষ্ণতা -",
+    options: [
+      "বাড়ে",
+      "কমে",
+      "প্রথমে বাড়ে তারপরে কমে",
+      "প্রথমে কমে তারপরে বাড়ে"
+    ],
+    answer: 1
+  },
+  {
+    question: "ওজোন গ‍্যাসের স্তর দেখা যায় -",
+    options: [
+      "ট্রপোস্ফিয়ারে",
+      "স্ট্রাটোস্ফিয়ারে",
+      "থারমোস্ফিয়ারে",
+      "এক্সোস্ফিয়ারে"
+    ],
+    answer: 2
+  },
+  {
+    question: "বায়ুমণ্ডলের ওজোন স্তর যে রস্মিকে শোষণ করে , সেটি হল",
+    options: [
+      " আলোক",
+      "তাপ",
+      "অতিবেগুনি",
+      "গামা"
     ],
     answer: 3
   },
@@ -659,4 +781,477 @@ export default [
     ],
     answer: 2
   },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+  {
+    question: "Your Question",
+    options: [
+      "Option 1",
+      "Option 2",
+      "Option 3",
+      "Option 4"
+    ],
+    answer: number
+  },
+    
+  
+  
 ]
