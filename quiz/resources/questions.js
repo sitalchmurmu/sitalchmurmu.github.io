@@ -1253,5 +1253,4 @@ export default [
     ],
     answer: number
   }
-  // Text
 ]
