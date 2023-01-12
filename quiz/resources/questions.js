@@ -1,3 +1,5 @@
+const number = -1
+
 export default [
   {
     question: "Which one of the following animals was not represented on the seals and terracotta art of the Harappan culture?",
@@ -1250,8 +1252,6 @@ export default [
       "Option_4"
     ],
     answer: number
-  },
-    
-  
-  
+  }
+  // Text
 ]
