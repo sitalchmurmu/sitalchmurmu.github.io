@@ -41,6 +41,8 @@ const bgColors = [
 const domParser = new DOMParser();
 
 let parseQuestion = (questionData) => {
+  if (questionData.answer === -1) return
+
   let optionsBlock = '';
   for (let i = 0; i < questionData.options.length; i++) {
     if (questionData.answer === i + 1) {
