@@ -1833,6 +1833,19 @@ export default [
     ],
     answer: 3
   },
+  {
+    question: "Your_Question",
+    options: [
+      "Option_1",
+      "Option_2",
+      "Option_3",
+      "Option_4"
+    ],
+    answer: number
+  },
+   
+    
+  
   
   
   
