@@ -2,10 +2,10 @@ const number = -1
 
 export default [
   {
-    question: "A question for class 6. The answer is C.",
+    question: "A question for class 6. The answer is D.",
     options: [
       "A", "B", "C", "D"
     ],
-    answer: 3
+    answer: 4
   }
 ]
