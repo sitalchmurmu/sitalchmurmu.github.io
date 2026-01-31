@@ -1,9 +1,4 @@
-import questions from './questions.js';
-
-console.log(questions.length);
-
 const qs = document.querySelector.bind(document);
-
 const qsa = document.querySelectorAll.bind(document);
 
 const rightIcon = `
@@ -37,18 +32,17 @@ const bgColors = [
     color: '#FFF'
   }
 ];
+const parser = new DOMParser();
 
-const domParser = new DOMParser();
-
-let parseQuestion = (questionData) => {
-  if (questionData.answer === -1) return
+let parseQuestion = ({ question, options, answer }, index) => {
+  if (answer === -1) return
 
   let optionsBlock = '';
-  for (let i = 0; i < questionData.options.length; i++) {
-    if (questionData.answer === i + 1) {
-      optionsBlock += `<span right>${bullets[i]}) ${questionData.options[i]}</span>`
+  for (let i = 0; i < options.length; i++) {
+    if (answer === i + 1) {
+      optionsBlock += `<span right>${bullets[i]}) ${options[i]}</span>`
     } else {
-      optionsBlock += `<span>${bullets[i]}) ${questionData.options[i]}</span>`
+      optionsBlock += `<span>${bullets[i]}) ${options[i]}</span>`
     }
   }
 
@@ -56,43 +50,54 @@ let parseQuestion = (questionData) => {
 
   let questionCard = `
     <div class="card" style="background-color: ${cBackground.background}">
-      <p style="color: ${cBackground.altColor}">${questionData.question}</p>
+      <div class="clip">
+        ${rightIcon}
+        ${wrongIcon}
+      </div>
+      <div class="qindex"><span>${index + 1}</span></div>
+      <p style="color: ${cBackground.altColor}">${question}</p>
       <div style="color: ${cBackground.color}" class="options">
         ${optionsBlock}
       </div>
-      ${rightIcon}
-      ${wrongIcon}
     </div>
   `
 
-  questionsContainer.appendChild(domParser.parseFromString(questionCard, 'text/html').body.childNodes[0]);
+  questionsContainer.appendChild(parser.parseFromString(questionCard, 'text/html').body.childNodes[0]);
 }
 
-questions.forEach(parseQuestion);
+const params = new URLSearchParams(location.search);
+const grade = params.get('class');
 
-qsa('.options > span').forEach((span) => {
-  const wrongIc = span.closest('.card').querySelector('.icon.wrong');
-  const rightIc = span.closest('.card').querySelector('.icon.right');
+qs('#grade-span').innerText = grade;
 
-  span.onclick = () => {
-    if (span.hasAttribute('right')) {
-      console.log('Right answer');
-      rightIc.classList.add('visible');
-      wrongIc.classList.remove('visible');
-    } else {
-      console.log('Wrong answer');
-      span.closest('.card').querySelector('.icon.right').classList.remove('visible');
-      if (wrongIc.classList.contains('visible')) {
+import(`../questions/${grade}.js`).then(module => {
+  const questions = module.default;
+
+  questions.forEach(parseQuestion);
+
+  qsa('.options > span').forEach((span) => {
+    const wrongIc = span.closest('.card').querySelector('.icon.wrong');
+    const rightIc = span.closest('.card').querySelector('.icon.right');
+
+    span.onclick = () => {
+      console.log("Click");
+      if (span.hasAttribute('right')) {
+        rightIc.classList.add('visible');
         wrongIc.classList.remove('visible');
-        setTimeout(() => {
-          wrongIc.classList.add('visible');
-        }, 310);
       } else {
-        wrongIc.classList.add('visible');
+        span.closest('.card').querySelector('.icon.right').classList.remove('visible');
+        if (wrongIc.classList.contains('visible')) {
+          wrongIc.classList.remove('visible');
+          setTimeout(() => {
+            wrongIc.classList.add('visible');
+          }, 310);
+        } else {
+          wrongIc.classList.add('visible');
+        }
       }
     }
-  }
-});
+  });
+})
 
 qs('.reset-btn').addEventListener('click', () => {
   qsa('.card .icon').forEach((el) => {
