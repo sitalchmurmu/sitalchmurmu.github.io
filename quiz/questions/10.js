@@ -20,7 +20,7 @@ export default [
       "মিথেন হাইড্রেট"
     ],
     answer: 4
-  },
+  }
   {
     question: "বায়োগ্যাসের প্রধান উপাদান হল -",
     options: [
@@ -30,5 +30,5 @@ export default [
       "অ্যাসিটিলিন"
     ],
     answer: 1
-  },
+  }
 ]
