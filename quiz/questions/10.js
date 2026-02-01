@@ -10,7 +10,7 @@ export default [
       "মেসস্ফিয়ার"
     ],
     answer: 4
-  }
+  },
   {
     question: "Fire Ice বা আগুনের বরফ হল - ",
     options: [
@@ -20,7 +20,7 @@ export default [
       "মিথেন হাইড্রেট"
     ],
     answer: 4
-  }
+  },
   {
     question: "বায়োগ্যাসের প্রধান উপাদান হল -",
     options: [
@@ -30,5 +30,15 @@ export default [
       "অ্যাসিটিলিন"
     ],
     answer: 1
-  }
+  },
+  {
+    question: "",
+    options: [
+      "",
+      "",
+      "",
+      ""
+    ],
+    answer: 0
+  },
 ]
