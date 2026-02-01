@@ -1,10 +1,10 @@
-const number = -1
+ const number = -1
 
 export default [
   {
-    question: "A question for class 10. The answer is D.",
+    question: "বায়ুমণ্ডলের শীতলতম স্তর আবস্থিত -",
     options: [
-      "A", "B", "C", "D"
+      "ট্রপোস্ফিয়ার", "স্ট্র্যাটোস্ফিয়ার", "থারমোস্ফিয়ার", "মেসস্ফিয়ার"
     ],
     answer: 4
   }
