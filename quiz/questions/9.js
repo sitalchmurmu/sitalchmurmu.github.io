@@ -12,8 +12,8 @@ export default [
     answer: 3
   }
   
-    answer: 2
-  },
+  
+  
   {
     question: "",
     options: [
