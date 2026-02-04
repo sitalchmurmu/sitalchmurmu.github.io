@@ -10,7 +10,7 @@ export default [
       "লোহা"
     ],
     answer: 3
-  }
+  },
   
   
   
