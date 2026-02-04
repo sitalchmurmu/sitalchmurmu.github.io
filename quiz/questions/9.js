@@ -2,10 +2,20 @@ const number = -1
 
 export default [
   {
-    question: "A question for class 9. The answer is D.",
+    question: "নীচের কোনটি ভৌত রাশি ",
     options: [
-      "A", "B", "C", "D"
+      "জল", "তেল", " আয়তন", "লোহা"
     ],
-    answer: 4
+    answer: 3
   }
+  {
+    question: "নীচের কোনটি ভৌত রাশি নয় ?",
+    options: [
+      "তড়িত আধান",
+      "ভরবেগ",
+      " সোনা",
+      "বল"
+    ],
+    answer: 3
+  },
 ]
