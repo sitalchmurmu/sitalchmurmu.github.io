@@ -4,16 +4,20 @@ export default [
   {
     question: "নীচের কোনটি ভৌত রাশি ",
     options: [
-      "জল", 
-      "তেল", 
-      " আয়তন", 
-      "লোহা"
+      "জল", "তেল", " আয়তন", "লোহা"
     ],
     answer: 3
   },
-  
-  
-  
+  {
+    question: "",
+    options: [
+      "",
+      "",
+      "",
+      ""
+    ],
+    answer: 0
+  },
   {
     question: "",
     options: [
