@@ -2,9 +2,9 @@ const number = -1
 
 export default [
   {
-    question: "A question for class 8. The answer is D.",
+    question: " ঘনত্বের SI এককটি হল.",
     options: [
-      "A", "B", "C", "D"
+      " গ্রাম/ঘন সেমি", " কিলগ্রাম/ঘন সেমি", " গ্রাম/ ঘন মিটার","কিলগ্রাম /ঘন মিটার"
     ],
     answer: 4
   }
